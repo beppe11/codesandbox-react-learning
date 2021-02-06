@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from "react";
 import { ColorfulMessage } from "./components/ColorfulMessage";
 
-const App = () => {
+export const App = () => {
   console.log("Start");
   const [num, setNum] = useState(0);
   const [faceShowFlag, setFaceShowFlag] = useState(false);
@@ -39,4 +39,4 @@ const App = () => {
   );
 };
 
-export default App;
+// export default App;
